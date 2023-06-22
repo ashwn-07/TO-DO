@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Lato:wght@700&family=Lilita+One&family=Playfair+Display+SC&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <style>
+    body{
+      
+      
+      background: rgb(107,145,148);
+background: linear-gradient(92deg, rgba(107,145,148,1) 0%, rgba(212,193,162,1) 100%);
+    }
+    .container1 {
+      max-width: 400px;
+      margin: 0 auto;
+      margin-top: 100px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .container {
+      width: 50%;
+      padding-top: 30px;
+      padding-bottom: 80px;
+      border-radius: 3rem;
+    }
+    .exfnt
+    {
+      font-family: 'Bungee';
+      color: rgb(122, 82, 215);
+
+
+
+    }
+  </style>
+  <body>
+    <div class="d-flex justify-content-center mt-5">
+      <h1 class="exfnt">MY TO-DO APP</h1>
+    </div>
+    <div
+      class="container"
+      style="background-image: url(images/best_to_do_apps.jpg)"
+    >
+      <div class="container1 mt-5" style="background-color: white">
+        <div class="d-flex justify-content-center">
+          <h1>Login</h1>
+        </div>
+        <form id="login-form" onsubmit="tocheck(event, rd)" novalidate>
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              required
+            />
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="background-color: black; border: rgb(0, 0, 0)"
+          >
+            Log In
+          </button>
+        </form>
+      </div>
+    </div>
+    
+  </body>
+</html>

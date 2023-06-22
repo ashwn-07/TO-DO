@@ -1,0 +1,73 @@
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 50px;
+    grid-column-gap: 20px; 
+    font-size: x-large;
+    font-family: 'Bungee';
+font-family: 'Lato', sans-serif;
+font-family: 'Lilita One';
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Rubik', sans-serif;
+color: honeydew;
+
+  }
+ 
+body
+{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+  .mycheck
+  {
+    cursor: pointer;
+    
+   
+ 
+    width: 25px;
+    height: 25px;
+  }
+
+.mynav{
+    float: right;
+}
+
+nav div  span{
+    color: rgb(122, 82, 215);
+    font-family: 'Bungee';
+   }
+
+    li a span{
+      
+      font-family: 'Days One';
+      
+      letter-spacing: 0.5mm;
+    
+    color: rgb(52, 50, 50);
+   } 
+
+ h2
+ {
+  margin-top: 70px !important;
+  
+ }
+  
+ .weldes
+ {
+margin-top: 78px;
+text-align: center;
+color:white;
+font-size:120px;
+font-family: 'days one';
+ }
+  .txt
+  {
+    
+    font-family: 'Days One';
+      
+    letter-spacing: 0.5mm;
+   
+   color: rgb(52, 50, 50);
+   font-size: 18px;
+  }
